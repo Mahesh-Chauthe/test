@@ -6,7 +6,7 @@ FROM docker.io/centos/systemd
 
  RUN yum -y install httpd
 
- RUN echo "hello this is Docker Test undated sucessfully " > /var/www/html/index.html
+ RUN echo "docker file updated successfully | 2nd build output " > /var/www/html/index.html
 
  EXPOSE 80
 
